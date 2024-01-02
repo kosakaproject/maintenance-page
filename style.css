@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/kosaka_02.png);
+    height: 100vh;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 5vw;
+    letter-spacing: 10px;
+}
+
+hr {
+    width: 50%;
+    margin: 30px auto;
+    border: 1.5px solid #fff;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.hero .build {
+        font-size: 20px;
+        margin-top: 50px;
+}
+
+.progress-wrapper {
+    width: 100%;
+    color: white;
+    background-color: #fff;
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 9px;
+}
+
+.progress {
+    width: 0%;
+    background-color:deeppink;
+    border-radius: 9px;
+    height: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.progress span {
+    position: relative;
+    font-weight: 800;
+    top: 15px;
+    left: 25px;
+}
